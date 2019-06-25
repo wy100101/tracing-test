@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: tracing-test
+spec:
+  containers:
+  - name: tracing-test
+    image: gcr.io/mtech-dc2-prod/tracing-test
